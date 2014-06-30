@@ -1,4 +1,6 @@
 Protractor [![Build Status](https://travis-ci.org/angular/protractor.png?branch=master)](https://travis-ci.org/angular/protractor)
+
+Test codeship status [ ![Codeship Status for StevenChin/protractor](https://www.codeship.io/projects/4e1808b0-e238-0131-f3a6-2e17c41adced/status)](https://www.codeship.io/projects/25285)
 ==========
 
 Protractor is an end to end test framework for [AngularJS](http://angularjs.org/) applications built on top of [WebDriverJS](https://code.google.com/p/selenium/wiki/WebDriverJs). Protractor runs tests against your application running in a real browser, interacting with it as a user would.
@@ -20,7 +22,7 @@ Install protractor with.
 
 Start up a selenium server (See the appendix below for help with this). By default, the tests expect the selenium server to be running at `http://localhost:4444/wd/hub`.
 
-The node module's example folder contains a simple test suite which runs against angularjs.org. Run with: 
+The node module's example folder contains a simple test suite which runs against angularjs.org. Run with:
 
     protractor example/conf.js
 
